@@ -50,7 +50,7 @@ print '\n'
 # - son type : décrit la nature de la structure de la donnée stockée en mémoire.
 
 # Pour être manipulées, les valeurs des variables sont stockées en mémoire vive. 
-# La mémoire centrale est organisée en CASE MEMOIRES qui sont accessibles via des ADRESSES.
+# La mémoire centrale est organisée en CASES MEMOIRES qui sont accessibles via des ADRESSES.
 
 # Illustration
 #         Mémoire centrale
