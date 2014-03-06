@@ -3,10 +3,10 @@
 Created on 4 mars. 2014
 @author: vincent
 
-Cours 2. : les bases du langages.
+Cours 2. : les bases du langage.
 '''
 #######################################
-# 4. Expressions logiques (booléenne)
+# 4. Expressions logiques (booléennes)
 ####################################### 
 
 # LA VALEUR D'UNE EXPRESSION LOGIQUE BOOLENNE NE PEUT PRENDRE QUE 2 VALEURS :
@@ -64,7 +64,7 @@ print "not(ilFaitBeauAujourdhui)=" + str(not(ilFaitBeauAujourdhui))
 
 # EXO 2: À l'aide du langage Python, déterminez la table de vérité de l'opérateur booléen OR7
 
-# 4.3 Expression booléenne complexes
+# 4.3 Expressions booléennes complexes
 c = (False and True) and (True and not(False)) 
 # Devinette: quelle est la valeur de c ? Vérifiez en utilisant print
 
