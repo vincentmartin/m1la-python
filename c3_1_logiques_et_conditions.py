@@ -3,11 +3,11 @@
 Created on 4 mars. 2014
 @author: vincent
 
-Cours 2. : les bases du langage.
+Cours 3. : Structures de contrôle et fonctions.
 '''
 #######################################
 # 4. Expressions logiques (booléennes)
-####################################### 
+#######################################
 
 # LA VALEUR D'UNE EXPRESSION LOGIQUE BOOLENNE NE PEUT PRENDRE QUE 2 VALEURS :
 #   VRAI ou FAUX (true false)
@@ -15,7 +15,7 @@ Cours 2. : les bases du langage.
 
 # 4.1. NOT
 
-# Table de vérité
+# Table de vérité (T = True ; F = False)
 # --------------
 #  X   | NOT(X)
 #+------------+
@@ -31,11 +31,12 @@ print "b=" + str(b)
 print "not(b)=" + str(not(b))
 
 # Exemples parlants
-ilFaitBeauAujourdhui = True #j'ai le droit d'appeler ma variable comme ça ;)
+ilFaitBeauAujourdhui = True  # j'ai le droit d'appeler ma variable comme ça ;)
 print "ilFaitBeauAujourdhui=" + str(ilFaitBeauAujourdhui)
 print "not(ilFaitBeauAujourdhui)=" + str(not(ilFaitBeauAujourdhui))
 
-# 4.2. NOT
+
+# 4.2. OR
 
 # Table de vérité
 
@@ -48,6 +49,7 @@ print "not(ilFaitBeauAujourdhui)=" + str(not(ilFaitBeauAujourdhui))
 # F | T | ?  
 
 # EXO 1: À l'aide du langage Python, déterminez la table de vérité de l'opérateur booléen OR
+# en créant deux variables booléennes et en testant les 4 possibilités.
 
 
 # 4.3. AND
@@ -62,11 +64,12 @@ print "not(ilFaitBeauAujourdhui)=" + str(not(ilFaitBeauAujourdhui))
 # T | F | ?  
 # F | T | ?  
 
-# EXO 2: À l'aide du langage Python, déterminez la table de vérité de l'opérateur booléen OR7
+# EXO 2: À l'aide du langage Python, déterminez la table de vérité de l'opérateur booléen AND
+# en créant deux variables booléennes et en testant les 4 possibilités.
 
 # 4.3 Expressions booléennes complexes
 c = (False and True) and (True and not(False)) 
-# Devinette: quelle est la valeur de c ? Vérifiez en utilisant print
+# EXO 3: quelle est la valeur de c ? Vérifiez en utilisant print.
 
 print "\n"
 #######################################
@@ -81,6 +84,8 @@ print "\n"
 # ==    égalité
 # !=    non égalité 
 
+# Le résultat d'une comparaison est soit vraie soit faux.
+
 age = input("Entrez votre age : ")
 print "Age > 18 ? " + str(age > 18)
 print "Age < 60 ? " + str(age < 60)
@@ -89,7 +94,7 @@ print "Age différent de 24 ? " + str(age != 24)
 
 print '\n'
 #######################################
-# 5. Opérateurs conditionnels
+# 5. Structures conditionnelles.
 #######################################
 
 # if, elif, else
@@ -103,6 +108,5 @@ elif age == 100:
 else:
     print "Vous n'avez droit à rien du tout !!!"
 
-
 # IMPORTANT : notez les tabulations. Elles permettent de délimiter les blocs d'instruction à exécuter en fonction de la condition. 
-# Ils sont créés par les instructions de contrôles : if, elif, else, while, for.# 
+# Les blocs sont créés par les instructions de contrôles : if, elif, else, while, for.
