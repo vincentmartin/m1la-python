@@ -6,7 +6,7 @@ Created on 4 mars. 2014
 Cours 3. : Structures de contrôle et fonctions.
 '''
 #######################################
-# 4. Expressions logiques (booléennes)
+# 1. Expressions logiques (booléennes)
 #######################################
 
 # LA VALEUR D'UNE EXPRESSION LOGIQUE BOOLENNE NE PEUT PRENDRE QUE 2 VALEURS :

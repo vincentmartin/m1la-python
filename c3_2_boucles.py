@@ -45,6 +45,7 @@ for compteur in range(1, 10):  # 1, 2, ..., 9
     print str(n) + " * " + str(compteur) + " = " + str(n * compteur)
 print("\n")
 
+# EXO2: Modifiez le code précédent pour afficher la table de multiplication jusqu'à 20.
 
 
 #######################################
@@ -62,3 +63,6 @@ for i in range(0, 10):
     if i == 5:
         continue
     print i
+    
+# EXO3: Écrire un script qui demande à l'utilisateur qui affiche 
+# un message tant que l'utilisateur n'a pas entré la lettre 'q'.'

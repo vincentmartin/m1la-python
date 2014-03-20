@@ -26,6 +26,9 @@ def bonjour_a_vous(nom):
     
 bonjour_a_vous("Toto")
 
+# EXO. 1 : Écrire une fonction prenant en paramètre votre date de naissance et affichant votre âge.
+# Tester la en affichant l'appelant..
+
 #######################################
 # 2. Valeur de retour.
 #######################################
@@ -48,6 +51,7 @@ def retourner_bonjour_nom_prenom(prenom, nom):
 texte = retourner_bonjour_nom_prenom("Franck", "Dupond")
 print texte 
 
+# EXO. 2. Transformez la fonction de l'EXO1. pour qu'elle retourne votre âge.
 
 print "\n"
 #######################################
@@ -65,6 +69,7 @@ print "\n"
 afficher_table_multiplication(2, 2)  # multiplications de 2 par  2 jusqu'à 9
 print "\n"
 afficher_table_multiplication(2, fin=15)  # multiplications de 2 par 1 jusqu'à 15
+
 
 print "\n"
 #######################################
